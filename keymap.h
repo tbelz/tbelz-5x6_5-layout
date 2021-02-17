@@ -33,7 +33,7 @@ enum layer_names {
 #define PLOVER TG(_PLOVER)
 #define NAV_UND LT(_NAV, KC_F24)
 
-// Miscellaneous keyboard shortcuts in direct access
+// Miscellaneous keyboard shortcuts in direct acces vvg
 #define UNDO LCTL(KC_Z)
 #define REDO LCTL(KC_Y)
 #define COMPOSE KC_APP
@@ -57,11 +57,11 @@ enum layer_names {
 // French accents
 // The other common grave accented letters are custom keycodes
 // And the rest of other accented letters are accessed using dead keys
-#define E_ACUTE ALGR(KC_E)
-#define C_CDILA ALGR(KC_COMMA)
+//#define E_ACUTE ALGR(KC_E)
+//#define C_CDILA ALGR(KC_COMMA)
 // Useful dead keys for French
-#define DED_CIR ALGR(KC_6)
-#define DED_UML S(ALGR(KC_QUOT))
+//#define DED_CIR ALGR(KC_6)
+//#define DED_UML S(ALGR(KC_QUOT))
 
 enum custom_keycodes {
     ARROW_R = SAFE_RANGE,
