@@ -13,7 +13,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
            REDO, UNDO  ,KC_WH_U,KC_WH_D, KC_F4 , KC_F5 ,                         KC_SCLN,KC_QUOT,KC_LBRC,DE_CIRC, KC_F10, KC_F11,
         KC_TAB, KC_Q  , KC_W  , KC_F  , KC_P  , KC_B  ,                         KC_J   , KC_L  , KC_U  , KC_Y  ,KC_SCLN,KC_MINS,
          KC_ESC, HOME_A, HOME_R, HOME_S, HOME_T, KC_G  ,                         KC_M   , HOME_N, HOME_E, HOME_I, HOME_O,KC_QUOT,
-        MS_CAPS, KC_Z  , KC_X  , KC_C  , KC_D  , KC_V  ,                         KC_K   , KC_H  ,KC_COMM, TD_DOT,KC_BSLSH,KC_SLSH,
+        MS_CAPS, KC_Z  , KC_X  , KC_C  , KC_D  , KC_V  ,                         KC_K   , KC_H  ,KC_COMM, TD_DOT,KC_BSLS,KC_SLSH,
               KC_LBRC,KC_RBRC,  MS_CAPS,NAV_TAB, COMPOSE,                        KC_DOWN, KC_UP , SYM_ENT,   KC_LGUI, KC_GRV,
                                                  KC_SPC, OS_LSFT,            OS_RSFT,KC_BSPC
   ),
