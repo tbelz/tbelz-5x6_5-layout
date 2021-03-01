@@ -54,6 +54,13 @@ enum layer_names {
 #define OS_LSFT OSM(MOD_LSFT)
 #define OS_RSFT OSM(MOD_RSFT)
 
+//German Umlaute
+
+#define UL_AE RALT(KC_Q) // for ä at position a
+#define UL_SZ RALT(KC_S) // for ß at position s
+#define UL_UE RALT(KC_Y) // for ü at position u
+#define UL_OE RALT(KC_P) // for ö at position o
+
 // French accents
 // The other common grave accented letters are custom keycodes
 // And the rest of other accented letters are accessed using dead keys
